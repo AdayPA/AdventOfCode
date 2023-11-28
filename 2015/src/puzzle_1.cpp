@@ -20,6 +20,6 @@ int main()
         else if (caracter == ')') result--;
     }
     archivoEntrada.close();
-    cout<<result;
+    cout<<result<<endl;
     return 0;
 }
