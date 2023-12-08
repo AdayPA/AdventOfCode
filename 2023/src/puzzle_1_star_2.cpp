@@ -27,7 +27,7 @@ int main(int argc, char* argv[]) {
                 p2_digits.push_back(c);
             }
 
-            const std::vector<std::string> values = {"one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
+            const std::vector<std::string> values = {"one", "two", "three", "four", "five", "six", "seven", "eightz", "nine"};
 
             for (size_t d = 0; d < values.size(); ++d) {
                 const std::string& val = values[d];
