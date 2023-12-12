@@ -5,7 +5,9 @@
 
 using namespace std;
 
-
+int getNumber(int x, int y) {
+    
+}
 
 
 int main()
@@ -18,12 +20,9 @@ int main()
         return 1; 
     }
     string linea;
-    int counter = 0;
     while (std::getline(archivoEntrada, linea)) {
-        counter += getNumber(linea);
-    }
 
-    cout << counter << endl;
+    }
     archivoEntrada.close();
     return 0;
 }
